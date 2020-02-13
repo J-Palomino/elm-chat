@@ -1,0 +1,30 @@
+{
+  "displayName": "Elm Chat",
+  "description": "A modern and beautiful real-time chat application.",
+  "author": "Brandon Burrus <brandon@burrus.io>",
+  "repository": "https://github.com/BrandonBurrus/elm.chat.git",
+  "version": "0.0.1",
+  "name": "elmchat",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.7.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-unicorn": "^16.1.1",
+    "husky": "^4.2.3",
+    "lerna": "^3.20.2",
+    "lint-staged": "^10.0.7",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1"
+  }
+}
