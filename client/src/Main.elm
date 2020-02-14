@@ -33,7 +33,10 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div [ class "container" ]
+    div
+        [ class "container"
+        , style "padding" "20px"
+        ]
         [ h1
             [ class "title" ]
             [ text (String.fromInt model) ]
